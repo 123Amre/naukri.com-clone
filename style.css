@@ -3,8 +3,9 @@
     margin: 0;padding: 0;
 }
 body{
-    background-color: #F7F7FB;
+    /* background: linear-gradient(#F7F7FB,#fff) ; */
     font-family: 'Inter', sans-serif;
+    margin: 0px 0px;
 }
 nav{
     background-color: #fff;
@@ -309,7 +310,7 @@ button{
 
 /*#############    header         ###########*/
 header{
-    margin: 80px 20px;
+    margin: 60px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,6 +318,7 @@ header{
     flex-wrap: nowrap;
     /* align-content: flex-start; */
     flex-direction: column;
+    /* background-color: #F7F7FB; */
 }
 header h1{
     font-size: 40px;
@@ -328,7 +330,8 @@ header p{
     font-family: 'Inter', 'sans-serif';
 }
 .search-bar{
-    margin: 50px 0px;
+    color: #A49EC2;
+    margin: 30px 0px;
     width: 63%;
     height: 80px;
     background-color: #fff;
@@ -398,6 +401,47 @@ header p{
     /* width: 90px; */
     border-radius: 25px;
 }
+/* #################       section        #######################*/
+.row-1{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.row-2{
+    margin: 0px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box2{
+    margin: 7px;
+    padding: 3px 20px;
+    width: fit-content;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e7e7f1;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 12px  rgba(30,10,58,0.04);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box2 p{
+    padding: 0px 9px;
+    font-weight: 600;
+
+}
+.box2:hover{
+    box-shadow: 20px 36px 32px  rgba(30,10,58,0.04);    
+}
+
 
 
 
